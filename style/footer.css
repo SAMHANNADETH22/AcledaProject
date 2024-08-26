@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.container>footer {
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(155, 96, 18);
+}
+
+.container>footer>.row-card {
+    display: flex;
+}
+
+.container>footer>.row-card>.card {
+    width: 25%;
+    background-color: rgb(231, 229, 229);
+    border-right: 1px solid white;
+    padding: 25px;
+    text-align: center;
+}
+
+.container>footer>.row-card>.card>img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.container>footer>.row-card>.card>p,
+.container>footer>.row-card>.card>p>a {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(12, 12, 12);
+    text-align: start;
+    line-height: 24px;
+}
+
+.container>footer>.row-card>.card>p>a {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+}
+
+.container>footer>.row-card>.card>p>a:hover {
+    text-decoration: none;
+}
+
+.container>footer>.about-ac {
+    width: 100%;
+    background-color: var(--menu-color);
+}
+
+.container>footer>.about-ac>.detail {
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 60px 0;
+
+}
+
+.container>footer>.about-ac>.detail>ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: 10px;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 500;
+
+}
+
+.container>footer>.about-ac>.detail>ul:nth-child(2) {
+    color: white;
+    margin: 20px 0;
+
+}
+
+.container>footer>.about-ac>.detail>ul>li {
+    padding: 0px 10px;
+
+}
+
+.container>footer>.about-ac>.detail>ul>li>a:hover {
+    text-decoration: underline;
+}
+
+.container>footer>.about-ac>.detail>.achievment {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 12px;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.container>footer>.about-ac>.detail>.achievment>img {
+    width: 170px;
+    margin: 20px 10px;
+    border-radius: 10px;
+}
+
+.container>footer>.about-ac>.detail>.socail {
+    text-align: center;
+    /* margin-top: 10px; */
+    font-size: 12px;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.container>footer>.about-ac>.detail>.socail>ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.container>footer>.about-ac>.detail>.socail>ul>li>img {
+    width: 35px;
+    border-radius: 50%;
+    padding: 1px;
+    border: 1px solid rgb(55, 55, 130);
+}
+
+.container>footer>.about-ac>.detail>.socail>ul>li>img:hover {
+    border: 1px solid white;
+}
